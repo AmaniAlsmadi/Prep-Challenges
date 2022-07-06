@@ -11,7 +11,7 @@
 // Output: 78
 
 const findMax = (arr) => {
-  let max=0;
+  let max=0; 
   for(let i=0; i < arr.length ; i++ ){
     if(arr[i] >= max){
       max = arr[i];
@@ -25,15 +25,15 @@ return max;
 //  Challenge 02:
 //  Required:
 //
-//  Write a function that takes an arrays and returns the Sum of the numeric values
+//  Write a function that takes an arrays and returns the Sum of the numeric values 
 //  inside the array (there could be strings inside), without using built-in functions
 //
 // Input: [20, '234', 'car', 41, 20, 'chair']
 // Output: 81
 const sumNums = (arr) => {
   let sum=0;
-  for(let i=0; i < arr.length -1 ; i++){
-    if(typeof(arr[i]) === 'number' ){
+  for(let i=0; i < arr.length  ; i++){
+    if(typeof(arr[i] ) === 'number' ){
       sum =sum + arr[i];
     }
   
@@ -43,3 +43,4 @@ const sumNums = (arr) => {
 // -------------------------------------------------------------------------------------------------------
 
 module.exports = { findMax, sumNums };
+
