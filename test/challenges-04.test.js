@@ -14,7 +14,7 @@ describe("Challenge04", () => {
 });
 
 describe("Challenge04", () => {
-  test.skip("removeElementFromArray", () => {
+  test("removeElementFromArray", () => {
     expect(removeElementFromArray([3, 2, 2, 3], 3)).toStrictEqual([2, 2, "_", "_"]);
     expect(removeElementFromArray([0, 1, 2, 2, 3, 0, 4, 2], 2)).toStrictEqual([
       0,

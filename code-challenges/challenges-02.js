@@ -9,8 +9,8 @@
 
 const reverseArray = (arr) => {
   let newArray=[];
-  for( let i=0; i < arr.length ; i++ ){
-  newArray =  arr[i].unshift();
+  for( let i= 0; i < arr.length ; i++ ){
+  newArray.unshift (arr[i]);
 }
 return newArray;
 };
