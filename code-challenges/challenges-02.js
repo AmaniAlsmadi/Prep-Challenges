@@ -10,7 +10,7 @@
 const reverseArray = (arr) => {
   let newArray=[];
   for( let i=0; i < arr.length ; i++ ){
-  newArray =  arr[i].unshift();
+  newArray.unshift(arr[i]);
 }
 return newArray;
 };
@@ -48,7 +48,7 @@ return array2;
 const shuffleString = (str, indicesArr) => {
  let output = [];
  for (let i= 0; i < indicesArr.length ; i++){
-  output[i] = str[indicesArr[i]];
+  output[indicesArr[i]]=str.charAt(i);
   }
 
    return output.join('');
