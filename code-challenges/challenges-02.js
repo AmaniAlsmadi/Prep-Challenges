@@ -46,12 +46,12 @@ return array2;
 // Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
 
 const shuffleString = (str, indicesArr) => {
- let output = [];
- for (let i= 0; i < indicesArr.length ; i++){
-  output[i] = str[indicesArr[i]];
+  const output = new Array(indicesArr.length);
+  for (let i = 0; i < indicesArr.length; i++) {
+    output[indicesArr[i]] = str.charAt(i);
   }
 
-   return output.join('');
+  return output.join("");
 };
 // -------------------------------------------------------------------------------------------------------
 
