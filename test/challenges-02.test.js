@@ -31,7 +31,7 @@ describe("Challenge01", () => {
     expect(shuffleArray([1, 1, 2, 2])).toStrictEqual([1, 2, 1, 2]);
   });
 
-  test("shuffle_String", () => {
+  test.skip("shuffle_String", () => {
     expect(shuffleString("codeleet", [4, 5, 6, 7, 0, 2, 1, 3])).toStrictEqual(
       "leetcode"
     );
