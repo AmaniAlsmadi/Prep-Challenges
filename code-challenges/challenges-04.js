@@ -63,7 +63,6 @@ const removeElementFromArray = (arr, value) => {
 // [89, 41, 31, 111, 31]
 //
 
-
 const oddFiltration = (arr) => {
   let odd=[];
   for( let i=0 ; i< arr.length ; i++){
